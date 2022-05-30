@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     if (loading) {
       setPage(page + 1);
-      fetch(`https://paginateapi.herokuapp.com/user?limit=40&page=${page}`)
+      fetch(`https://paginateapi.herokuapp.com/user?limit=25&page=${page}`)
         .then((res) => res.json())
         .then((json) => setData([...data, ...json.results]));
     }
