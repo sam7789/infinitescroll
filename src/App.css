@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  width: auto;
+  border-radius: 6px;
+  margin: 10px;
+}
